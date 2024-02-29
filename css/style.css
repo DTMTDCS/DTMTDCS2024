@@ -132,7 +132,7 @@ header{
  
 #image-text{
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     width: 1000px;
     height: 200px;
@@ -142,7 +142,7 @@ header{
 }
 #image-text2{
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     width: 1000px;
     height: 200px;
@@ -152,7 +152,7 @@ header{
 }
 #image-text3{
     position: absolute;
-    top: 75%;
+    top: 85%;
     left: 50%;
     width: 1000px;
     height: 200px;
