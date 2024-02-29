@@ -1,61 +1,53 @@
 <!DOCTYPE html>
-<html>
-
+<!-- Header Menu of the Page -->
 <head>
+  <link rel="stylesheet" href="css/style.css">
   <title>DTMDCS 2024</title>
-<style>
-.button {
-  border: none;
-  color: white;
-  padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  margin: 2px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #04AA6D;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
-</style>
 </head>
+<header>
+    <!-- Top header menu containing
+         logo and Navigation bar -->
+    <div id="top-header">
+        <!-- Logo -->
+        <div id="logo">
+            <img src="image/logo.jpg" />
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <div id="menu">
+                <ul>
+<li class="active"><a href="#">Home</a></li>
+<li> <a href="#">Organizing Committee</a></li>
+<li><a href="#">Keynote Speakers</a></li>
+<li><a href="#">Download CFP</a></li>
+<li><a href="#">Workshop Program</a></li>
+<li><a href="#">Workshop Registration</a></li>
 
-	
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-<h1 style="font-size: 40px" align="center"> 
-    Welcome To ICDCS 2024 International Workshop on Digital Twin-Enabled 6G Multi-Tier Distributed Computing Systems (DTMTDCS)
-</h1>
-  <h3 style= margin-left:70px; margin-right:70px; font-size: 25px" align="center">
-  Organized in conjunction with <br>
-IEEE International Conference on Distributed Computing Systems (ICDCS) 2024<br>
+    <!-- Image menu in Header to contain an Image and 
+         a sample text over that image -->
+
+    <div id="header-image-menu">
+      <img src="image/Jersey_City_Skyline_sunset5.jpg">
+        <h1 id="image-text">
+            Welcome To ICDCS 2024 International Workshop on 
+        </h1>
+        <h1 id="image-text2">
+         Digital Twin-Enabled 6G Multi-Tier Distributed Computing Systems (DTMTDCS)
+        </h1> 
+        <h2 id="image-text3">
+         Organized in conjunction with IEEE International Conference on Distributed Computing Systems (ICDCS) 2024
 July 16-19, 2024, Jersey City, New Jersey, USA
-  </h3>
-  
-<img src="image/Jersey_City_Skyline_sunset.jpg" width="100%" height="100%">
-  
+    </div>
+</header>
+
+
 <body>
-  <a href="Organizing_Committee.html">
-  <button class="button button2"> Organizing Committee </button>
-  </a>
-  
-  <a href="Keynote.html">
-  <button class="button button2"> Keynote Speakers </button>
-  </a>
-
-   <a href="files/DTMTDCS2024_cfp.pdf">
-  <button class="button button2"> Download CFP </button>
-  </a>
-  
-   <a href="Workshop_Program.html">
-  <button class="button button2"> Workshop Program</button>
-   </a>
-  
-  <a href="Workshop_Registration.html">
-  <button class="button button2"> Workshop Registration</button>
-  </a>
-
-  <hr class="line">
+<hr class="line">
      <div>
             <span class="category" style="margin-top:50px; margin-left:50px; font-size: 28px"> NEWS </span>
             
@@ -75,7 +67,7 @@ July 16-19, 2024, Jersey City, New Jersey, USA
                 scrollbar-arrow-color: #FFD6DA;
                 ">
                 
-                <ul class="item_content" style="margin-left:50px; font-size: 20px">
+                <ul class="item_content" style="margin-left:50px; margin-top:10px; font-size: 20px">
                     <li>
                         <font color="black"><span>[01/2024] Workshop proposal is accepted.</span></font>
 		</li>
@@ -102,7 +94,7 @@ July 16-19, 2024, Jersey City, New Jersey, USA
   Digital Twin (DT) has become a game-changing technology in many AI/ML-driven distributed computing applications leveraging next-generation mobile wireless networks, e.g., 6G, by fully replicating the physical devices and produce real-time interactions to efficiently manage the entire system. DT in multi-tier distributed computing systems enables communication-oriented computing from the cloud-computing-based twin object to the edge-based twin objects by distributing storage/caching, control, and networking capabilities, thus extending the traditional cloud computing architecture to the edge of the network. The new computing model resulting from combining computer-communications and multi-dimensional resources management with multi-tier distributed computing will promote the rapid development of DT and enable efficient task offloading of computation-intensive tasks, so as to realize ultra-reliable and low latency of the interactions between physical and virtual objects. However, attaining the full potential of DT in practical multi-tier distributed computing scenarios is challenging, and there are still many important open research problems, especially from the various perspectives of distributed computing. This workshop aims to provide a forum for the latest advances for DT-enabled 6G multi-tier distributed computing research, innovations, and applications to the distributed computing communities, in order to bridge the gap between theory and applications. We solicit high-quality original research papers on the topics which include, but are not limited to:
 </p>
 
-<ul style="margin-left:60px; margin-right:60px; font-size: 20px">
+<ul style="margin-left:80px; margin-right:60px; font-size: 20px">
   <li>Fundamental limits and performance analysis of resource allocation for DT-enabled 6G multi-tier distributed computing</li>
   <li>Machine learning aided DT in 6G multi-tier distributed computing </li>
   <li>Joint optimal design of signal processing, computing, communications for DT-enabled 6G multi-tier distributed computing </li>
@@ -119,7 +111,7 @@ July 16-19, 2024, Jersey City, New Jersey, USA
   Submission Procedure
 </h2>
 
-<p style="margin-left:50px; margin-right:50px; font-size: 20px" align="justify">
+<p style="margin-left:60px; margin-right:50px; font-size: 20px" align="justify">
   
 Submitted papers must represent original material which is not currently under review in any other conference or journal and has not been previously published. Paper length should not exceed <strong>six</strong>-page standard IEEE conference two-column format (including all text, figures, and references). Please see the Author Information page for submission guidelines in the IEEE ICDCS 2024 website. All papers should be submitted through Esaychair Website (<a href="https://easychair.org/my/conference?conf=dtmtdcs2024">https://easychair.org/my/conference?conf=dtmtdcs2024</a>) and will go through a peer review process. All accepted and presented papers will be included in the IEEE ICDCS 2024 proceedings and IEEE digital library. IEEE reserves the right to exclude an accepted and registered but not presented paper from the IEEE digital library.
 </p>
@@ -129,7 +121,7 @@ Submitted papers must represent original material which is not currently under r
   Important Dates
 </h2>
 
-<ul style="margin-left:50px; font-size: 20px">
+<ul style="margin-left:80px; font-size: 20px">
   
   <li>Paper submission deadline:	March 25, 2024 </li>
   <li>Author notification:	April 27, 2024 </li>
@@ -139,7 +131,7 @@ Submitted papers must represent original material which is not currently under r
 <h2 style="margin-left:50px; font-size: 28px"> 
   Steering Committee Members
   </h2>
-    <ul style="margin-left:50px; font-size: 20px">
+    <ul style="margin-left:80px; font-size: 20px">
       <li> Xi Zhang, Texas A&M University, College Station, U.S.A. (Chair) </li>
       <li> Yuanyuan Yang, State University of New York at Stony Brook, U.S.A. </li>
       <li> Dusit Niyato, Nanyang Technological University, Singapore  </li>
@@ -151,4 +143,3 @@ Submitted papers must represent original material which is not currently under r
       </ul>
 
 </body>
-</html>
