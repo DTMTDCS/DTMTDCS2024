@@ -1,11 +1,12 @@
 html, body{
 	height: 100%;
+     margin:50px
 }
 	
 body{
 	margin: 4px;
 	padding: 0px;
-	background: #FFFFFF;
+	background: #fef6ed;
 	font-family: 'Roboto';
 	font-size: 12pt;
 }
@@ -40,6 +41,10 @@ ol, ul{
 	width: 1300px;
 }
 
+.active {
+  background-color: #0c5ba0;
+}
+
 /*************************/
 /* Styling Header */
 /*************************/
@@ -51,7 +56,7 @@ header{
 #top-header{
 		
 	text-align: center;
-	height: 60px;
+	height: 50px;
 }
 
 /****************/
@@ -76,14 +81,16 @@ header{
 /***************************/
 #menu{
 	float: right;
-	width: 90%;   <!- this +logo/width is less than 100%->
+	width: 100%;   <!- this +logo/width is less than 100%->
 	height: 100%;
 	margin: none;
+     overflow: hidden;
 }
 	
 #menu ul{
-	text-align: center;
-	float: right;
+     width: 100%;
+     	text-align: center;
+	<!-float: right;->
 	margin: none;
 	background: #0074D9;
 }
@@ -96,7 +103,7 @@ header{
 	
 #menu li a, #menu li span{
 	display: inline-block;
-	padding: 0em 1.5em;
+	padding: 0em 1.87em;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -106,10 +113,13 @@ header{
 #menu li a{
 		
 	color: #FFF;
+      display: inline-block;
+
 }
 	
 #menu li:hover a, #menu li span{
-	background: #FFF;
+	display: inline-block;
+      background: #FFF;
 	color: #0074D9;
 	border-left: 1px solid #0074D9;
 	text-decoration: none;
